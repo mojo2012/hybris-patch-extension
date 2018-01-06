@@ -10,7 +10,7 @@
 		<requires-extension name="commerceservices" />
 
 		<coremodule generated="true"
-			manager="com.kps.hybris.patch.jalo.PatchManager" packageroot="com.kps.hybris.patch" />
+			manager="at.spot.hybris.patch.jalo.PatchManager" packageroot="at.spot.hybris.patch" />
 
 	</extension>
 

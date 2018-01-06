@@ -15,15 +15,15 @@
 	<context:annotation-config />
 	<context:component-scan base-package="com.kps.hygris.patch" />
 
-	<bean id="patchService" class="com.kps.hybris.patch.service.impl.DefaultPatchService">
+	<bean id="patchService" class="at.spot.hybris.patch.service.impl.DefaultPatchService">
 		<property name="patchScanPaths">
 			<list>
-				<value>com.kps.hybris.patch.patches</value>
+				<value>at.spot.hybris.patch.patches</value>
 			</list>
 		</property>
 	</bean>
 
-	<bean id="patchSystemSetup" class="com.kps.hybris.patch.setup.PatchSystemSetup" parent="abstractCoreSystemSetup">
+	<bean id="patchSystemSetup" class="at.spot.hybris.patch.setup.PatchSystemSetup" parent="abstractCoreSystemSetup">
 		<constructor-arg ref="patchService" />
 	</bean>
 

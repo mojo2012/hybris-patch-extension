@@ -5,7 +5,7 @@
 	<itemtypes>
 
 		<itemtype generate="true" code="PatchExecution"
-			jaloclass="com.kps.hybris.patch.jalo.Patch" autocreate="true">
+			jaloclass="at.spot.hybris.patch.jalo.Patch" autocreate="true">
 			<deployment table="patch" typecode="3900"/>
 			
 			<attributes>

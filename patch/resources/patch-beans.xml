@@ -18,16 +18,16 @@
 	<!--
 		Example Data POJO
 	
-	<bean class="com.kps.hybris.patch.data.AbstractPojo" abstract="true">
+	<bean class="at.spot.hybris.patch.data.AbstractPojo" abstract="true">
 		<property name="id" type="String"/>
 		<property name="flag" type="boolean"/>
 	</bean>
 
-	<bean class="com.kps.hybris.patch.data.MyPojo" extends="com.kps.hybris.patch.data.AbstractPojo">
+	<bean class="at.spot.hybris.patch.data.MyPojo" extends="at.spot.hybris.patch.data.AbstractPojo">
 		<property name="message" type="String"/>
 	</bean>
 
-	<bean class="com.kps.hybris.patch.data.AnnotatedPojo">
+	<bean class="at.spot.hybris.patch.data.AnnotatedPojo">
 
 		<import type="javax.xml.bind.annotation.XmlRootElement"/>
 		<import type="javax.xml.bind.annotation.XmlElements"/>
