@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="items.xsd">
+
+	<itemtypes>
+
+		<itemtype generate="true" code="PatchExecution"
+			jaloclass="com.kps.hybris.patch.jalo.Patch" autocreate="true">
+			<deployment table="patch" typecode="3900"/>
+			
+			<attributes>
+				<attribute qualifier="uid" type="java.lang.String">
+					<description>The unique uid.</description>
+					<modifiers initial="true" />
+					<persistence type="property" />
+				</attribute>
+
+				<attribute qualifier="author" type="java.lang.String">
+					<description>The author of the patch.</description>
+					<persistence type="property" />
+				</attribute>
+
+			</attributes>
+		</itemtype>
+
+	</itemtypes>
+</items>

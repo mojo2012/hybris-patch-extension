@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+
+	<extension abstractclassprefix="Generated" classprefix="Patch"
+		managername="PatchManager" managersuperclass="de.hybris.platform.jalo.extension.Extension"
+		name="patch" usemaven="false">
+		<!-- for more information on maven managed libraries please consult https://wiki.hybris.com/x/Nq8sDQ -->
+
+		<requires-extension name="commerceservices" />
+
+		<coremodule generated="true"
+			manager="com.kps.hybris.patch.jalo.PatchManager" packageroot="com.kps.hybris.patch" />
+
+	</extension>
+
+</extensioninfo>
